@@ -1,0 +1,48 @@
+h1 {
+  margin: 20px 0;
+  text-align: center;
+  color: #757675;
+}
+
+p code {
+  /* font-family: monospace; */
+  padding: 1px 3px;
+  border: 1px solid #DFE1E6;
+  border-radius: 3px;
+  background: #F4F5F7;
+}
+
+p {
+  margin: 16px 0;
+  font-size: 112.5%;
+  line-height: 1.5625em;
+  font-family: "Fira Code","monospace","Segoe UI","Roboto","Oxygen","Ubuntu","Fira" "Sans","Droid Sans","Helvetica" "Neue","sans-serif";
+}
+
+pre {
+  overflow-wrap: normal;
+  font-family: "Fira Code";
+  font-size: 14px;
+  overflow-x: auto;
+  padding: 16px 17px;
+  background: rgb(244, 245, 247);
+  border-radius: 3px;
+  margin: 10px 0px;
+}
+
+pre code {
+  /* font-family: monospace; */
+}
+
+ul, ol {
+  margin: 0 30px;
+}
+
+.article-wrapper {
+  padding: 20px 200px;
+}
+
+.article-title {
+  color: #cb98cc;
+  font: normal normal normal 116px/1.4em playfairdisplay-bold,'playfair display',"PT Serif","serif";
+}

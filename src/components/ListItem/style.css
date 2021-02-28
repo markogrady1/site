@@ -1,0 +1,19 @@
+.__list-item {
+  padding: 10px 10px;
+}
+
+.list-item-date {
+  padding-left: 10px;
+  margin-top: 0;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  opacity: .5;
+
+}
+
+.list-link {
+  background-color: white;
+  color: rgb(63, 61, 61);
+  text-decoration: none;
+  list-style-type: none;
+}
