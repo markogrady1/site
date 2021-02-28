@@ -9,7 +9,7 @@ import { JSDOM } from 'jsdom';
 
 function Post(props) {
   // using fake api until backend is plugged in
-  const { response } = useFetch(`http://52.19.37.216:3000/api/article/${props.match.params.id}`, {});
+  const { response } = useFetch(`https://52.19.37.216:3000/api/article/${props.match.params.id}`, {});
 
   if (!response) {
     return <div className='spinner-container'>

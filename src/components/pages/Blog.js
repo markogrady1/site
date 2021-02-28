@@ -6,7 +6,7 @@ import useFetch from '../Fetch';
 function Blog() {
 
   // fake data until backend is plugged in
-  const { response } = useFetch('http://52.19.37.216:3000/api/articles', {});
+  const { response } = useFetch('https://52.19.37.216:3000/api/articles', {});
 
   if (!response) {
     return <div className='spinner-container'>
