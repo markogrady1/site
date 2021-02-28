@@ -5,9 +5,9 @@ import Home from './components/Home';
 import { HashRouter, Route } from "react-router-dom";
 import Projects from './components/pages/Projects';
 import Blog from './components/pages/Blog';
-import Notes from './components/pages/Notes';
-import Post from './components/Post';
-import Bookmarks from './components/pages/Bookmarks';
+// import Notes from './components/pages/Notes';
+// import Post from './components/Post';
+// import Bookmarks from './components/pages/Bookmarks';
 
 import './App.css';
 
