@@ -21,16 +21,35 @@ const routes = [
 ];
 
 function App() {
+
   return (
-    <div>
-      <HashRouter basename='/'>
-        <Header />
-        {routes.map((route, index) => {
-          return <Route key={index} path={route.path} exact component={route.component} />
-        })}
-      </HashRouter>
+    <div className="App">
+      {/* <HashRouter basename='/'></HashRouter> */}
+      {/* <Header /> */}
+      <p>
+        Edit <code>src/App.js</code> and save to reload.
+        </p>
+      <a
+        className="App-link"
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Learn React
+        </a>
+      {/* <HashRouter /> */}
     </div>
   );
+  // return (
+  //   <div>
+  //     <HashRouter basename='/'>
+  //       <Header />
+  //       {routes.map((route, index) => {
+  //         return <Route key={index} path={route.path} exact component={route.component} />
+  //       })}
+  //     </HashRouter>
+  //   </div>
+  // );
 }
 
 export default App;
