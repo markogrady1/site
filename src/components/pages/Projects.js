@@ -8,7 +8,9 @@ function Projects() {
   const [data, setData] = useState([]);
 
   const usefulProjects = [
-    'nasa-data',
+    'node-resque-data',
+    'iso-country-map',
+    'email-valid-simple',
     'aray',
     'design-patterns',
     'ember-bootstrap-pagination',
